@@ -3,7 +3,9 @@
 
 service:
     name: log-printer
-    currentVersion: v1.0.0
-    stage: major
+    registry: ghcr.io/petuhovskiy/chill-log-printer
+    baseVersion: v1.0.0
+    currentVersion: v1.0.1
+    stage: development
     integration: go
     dependencies: {}
