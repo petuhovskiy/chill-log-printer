@@ -1,6 +1,6 @@
 service:
     name: log-printer
     registry: ghcr.io/petuhovskiy/chill-log-printer
-    stage: development
+    stage: major
     integration: go
     dependencies: {}
