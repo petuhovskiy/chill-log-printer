@@ -1,0 +1,9 @@
+# THIS IS AN AUTO-GENERATED FILE; DO NOT MODIFY!
+# DO NOT EXCLUDE THIS FILE FROM THE VERSION CONTROL
+
+service:
+    name: log-printer
+    currentVersion: v1.0.0
+    stage: major
+    integration: go
+    dependencies: {}

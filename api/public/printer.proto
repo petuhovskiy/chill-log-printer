@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message LogRequest {
+    string msg = 1;
+}
+
+message LogResponse {
+    int32 size = 1;
+}
+
+service PrinterService {
+    rpc PrintLog(LogRequest) returns (LogResponse);
+}
